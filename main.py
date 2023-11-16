@@ -12,8 +12,15 @@ def main():
         notes, sequence_length=100)
     dataloader = create_dataloader(network_input, network_output)
 
+    # Define the model architecture parameters
+    input_size = 1  # This depends on how you preprocess your data
+    output_size = len(set(notes))  # The total number of unique notes
+    hidden_dim = 512  # Size of the hidden layer, can be adjusted
+    n_layers = 2  # Number of LSTM layers, can be adjusted
+
     # Initialize the model
     model = MusicRNN(input_size, output_size, hidden_dim, n_layers)
+    model = model.float()  # Explicitly setting model to float32
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.Adam(model.parameters(), lr=0.001)
 

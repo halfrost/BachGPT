@@ -9,9 +9,8 @@ def train(model, dataloader, criterion, optimizer, n_epochs):
 
     for epoch in range(n_epochs):
         for inputs, targets in dataloader:
-            # Convert data to suitable tensor format
-            inputs = torch.from_numpy(inputs).float()
-            targets = torch.from_numpy(targets).long()
+            inputs = inputs.float()  # Ensure inputs are float32
+            targets = targets.long()  # Targets usually are long for classification
 
             # Forward pass
             outputs, _ = model(inputs, None)

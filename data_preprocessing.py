@@ -1,6 +1,6 @@
 import numpy as np
 from torch.utils.data import Dataset, DataLoader
-from keras.utils import np_utils
+from tensorflow.keras.utils import to_categorical
 import glob
 from music21 import converter, instrument, note, chord
 
@@ -55,7 +55,7 @@ def prepare_sequences(notes, sequence_length):
     normalized_input = normalized_input / float(len(pitchnames))
 
     # One-hot encode the output
-    network_output = np_utils.to_categorical(network_output)
+    network_output = to_categorical(network_output)
 
     return (normalized_input, network_output)
 
