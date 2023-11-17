@@ -24,10 +24,11 @@ def main():
     hidden_dim = 512  # Size of the hidden layer, can be adjusted
     n_layers = 3  # Number of LSTM layers, can be adjusted
     dense = 256
+    dropout = 0.2
 
     # Initialize the model
     # model = MusicRNN(input_size, output_size, hidden_dim, n_layers)
-    model = MusicRNN(input_size, n_vocab, hidden_dim, n_layers, dense)
+    model = MusicRNN(input_size, n_vocab, hidden_dim, n_layers, dense, dropout)
     # model.load_state_dict(torch.load('./model_state_dict.pth'))
     model_path = './model_state_dict.pt'
     if os.path.exists(model_path):
