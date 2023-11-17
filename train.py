@@ -22,3 +22,6 @@ def train(model, dataloader, criterion, optimizer, n_epochs):
             optimizer.step()
 
         print(f'Epoch {epoch}/{n_epochs} Loss: {loss.item()}')
+
+    torch.save(model.state_dict(), './model_state_dict.pth')
+    torch.save(model, './model.pth')
