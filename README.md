@@ -71,6 +71,22 @@ timidity output/complete.midi -Ow -o - | ffmpeg -i - -acodec libmp3lame -ab 320k
 
 The final generated Bach-style music is in the output folder.
 
+# Generated music
+
+
+
+
+![image](https://github.com/halfrost/BachGPT/assets/10825609/c4d98cfc-504f-446a-a92f-55487ec98add)
+
+
+
+![image](https://github.com/halfrost/BachGPT/assets/10825609/665c63b4-e59b-41fe-8add-1f6e27bb92e1)
+
+
+
+![image](https://github.com/halfrost/BachGPT/assets/10825609/6870cf4c-4cf3-4ef8-a4b6-cf684b1db998)
+
+
 # Reference
 1. [Generating Original Classical Music with an LSTM Neural Network and Attention](https://medium.com/@alexissa122/generating-original-classical-music-with-an-lstm-neural-network-and-attention-abf03f9ddcb4)
 2. [Generating Long-Term Structure in Songs and Stories](https://magenta.tensorflow.org/2016/07/15/lookback-rnn-attention-rnn)
