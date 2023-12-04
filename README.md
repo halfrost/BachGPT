@@ -42,7 +42,7 @@ The model's performance was evaluated based on its ability to authentically repl
 
 # How to run
 
-I highly recommend running the notebook in [Colaboratory](https://colab.research.google.com/) so you can view the results and change parameters in real-time. The jupyter notebook code is [here](). However, you can run Python code on your local machine.
+I highly recommend running the notebook in [Colaboratory](https://colab.research.google.com/) so you can view the results and change parameters in real-time. The jupyter notebook code is [here](https://github.com/halfrost/BachGPT/blob/main/bachGPT.ipynb). However, you can run Python code on your local machine.
 
 ## 1. Train model
 
