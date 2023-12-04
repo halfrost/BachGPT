@@ -14,13 +14,13 @@ python3 bachGPT.py
 ## 2. Use the model to generate predicted output
 
 ```python
-python3 bach_predict.py ./models/model96256.pth 
+python3 bach_predict.py ./models/{your_model_name}.pth 
 ```
 
 ## 3. Create midi music file
 
 ```python
-python3 create_midi.py model96256.pth/output.txt
+python3 create_midi.py {your_model_name}.pth/output.txt
 ```
 
 ## 4. Generate mp3 file
