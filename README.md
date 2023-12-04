@@ -39,6 +39,17 @@ The model's performance was evaluated based on its ability to authentically repl
 - Experiments and Results: The results of these experiments were quantified and are presented in tables and figures, demonstrating the model's accuracy in generating music that aligns with Bach's style.
 - Comparison with Baselines: The model's performance was also compared against established baselines to ascertain its efficacy and uniqueness.
 
+![](https://github.com/halfrost/BachGPT/blob/main/evaluations/my_plot1.png)
+![](https://github.com/halfrost/BachGPT/blob/main/evaluations/my_plot2.png)
+![](https://github.com/halfrost/BachGPT/blob/main/evaluations/my_plot3.png)
+![](https://github.com/halfrost/BachGPT/blob/main/evaluations/my_plot4.png)
+![](https://github.com/halfrost/BachGPT/blob/main/evaluations/my_plot5.png)
+![](https://github.com/halfrost/BachGPT/blob/main/evaluations/my_plot6.png)
+![](https://github.com/halfrost/BachGPT/blob/main/evaluations/my_plot7.png)
+![](https://github.com/halfrost/BachGPT/blob/main/evaluations/my_plot8.png)
+![](https://github.com/halfrost/BachGPT/blob/main/evaluations/my_plot9.png)
+![](https://github.com/halfrost/BachGPT/blob/main/evaluations/my_plot10.png)
+
 
 # How to run
 
