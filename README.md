@@ -80,11 +80,28 @@ The final generated Bach-style music is in the output folder.
 
 
 
+https://github.com/halfrost/BachGPT/assets/10825609/ba1f8a7b-5317-4cce-898a-98ca69de66de
+
+
+
 ![image](https://github.com/halfrost/BachGPT/assets/10825609/665c63b4-e59b-41fe-8add-1f6e27bb92e1)
 
 
 
+
+https://github.com/halfrost/BachGPT/assets/10825609/cb740315-36c5-4722-bac3-a619888c18b9
+
+
+
+
 ![image](https://github.com/halfrost/BachGPT/assets/10825609/6870cf4c-4cf3-4ef8-a4b6-cf684b1db998)
+
+
+
+
+https://github.com/halfrost/BachGPT/assets/10825609/069e8bf7-a2c9-4624-820a-deccf4ef2aac
+
+
 
 
 # Reference
